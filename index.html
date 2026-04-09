@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grupo El Surco | Soluciones integrales</title>
+    <meta
+      name="description"
+      content="Grupo El Surco: empresas con liderazgo regional, foco en innovación, eficiencia y sostenibilidad."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grain" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="#inicio" class="brand" aria-label="Inicio Grupo El Surco">
+          <span class="brand-dot"></span>
+          <span>GRUPO EL SURCO</span>
+        </a>
+        <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+        <ul class="nav-links">
+          <li><a href="#quienes-somos">Quiénes somos</a></li>
+          <li><a href="#trayectoria">Trayectoria</a></li>
+          <li><a href="#proposito">Propósito</a></li>
+          <li><a href="#valores">Valores</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero container reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Liderazgo regional</p>
+          <h1>Soluciones integrales para una región en constante crecimiento.</h1>
+          <p>
+            Somos un grupo de empresas reconocido por sus valores, por su cercanía y por la capacidad
+            de transformar oportunidades en desarrollo sostenible.
+          </p>
+          <a class="btn" href="#contacto">Trabajá con nosotros</a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="cube cube-a"></div>
+          <div class="cube cube-b"></div>
+          <div class="cube cube-c"></div>
+        </div>
+      </section>
+
+      <section id="quienes-somos" class="section container reveal">
+        <h2>Quiénes somos</h2>
+        <p>
+          Grupo El Surco acompaña a sus clientes con productos y servicios de alta calidad, ofreciendo
+          una experiencia excelente antes y después de la venta. Trabajamos con visión de largo plazo,
+          compromiso y foco en generar relaciones sólidas.
+        </p>
+      </section>
+
+      <section id="trayectoria" class="section timeline-wrap reveal">
+        <div class="container">
+          <h2>Trayectoria</h2>
+          <p class="section-intro">
+            Un recorrido creativo que resume cómo fuimos ampliando capacidades para brindar respuestas
+            cada vez más integrales.
+          </p>
+          <div class="timeline" role="list">
+            <article class="time-card" role="listitem">
+              <span>Inicio</span>
+              <h3>Raíces locales</h3>
+              <p>Nacemos con foco en servicio, cercanía y cumplimiento.</p>
+            </article>
+            <article class="time-card" role="listitem">
+              <span>Evolución</span>
+              <h3>Expansión regional</h3>
+              <p>Consolidamos presencia y fortalecemos alianzas estratégicas.</p>
+            </article>
+            <article class="time-card" role="listitem">
+              <span>Innovación</span>
+              <h3>Nuevas soluciones</h3>
+              <p>Sumamos procesos eficientes y propuestas más completas.</p>
+            </article>
+            <article class="time-card" role="listitem">
+              <span>Hoy</span>
+              <h3>Mirada sostenible</h3>
+              <p>Impulsamos decisiones responsables para crecer con impacto positivo.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="proposito" class="section container split reveal">
+        <article class="panel">
+          <h2>Visión</h2>
+          <p>
+            Ser un grupo de empresas con liderazgo regional, reconocido por nuestros valores y por la
+            capacidad de brindar soluciones integrales de manera innovadora, eficiente y sostenible.
+          </p>
+        </article>
+        <article class="panel">
+          <h2>Misión</h2>
+          <p>
+            Satisfacer a nuestros clientes con productos y servicios de alta calidad, ofreciendo una
+            excelente experiencia antes y después de la venta, fomentando relaciones sólidas y cercanas.
+          </p>
+        </article>
+      </section>
+
+      <section id="valores" class="section container reveal">
+        <h2>Valores</h2>
+        <ul class="chips" aria-label="Valores del grupo">
+          <li>Orden</li>
+          <li>Pasión y Humildad</li>
+          <li>Liderazgo</li>
+          <li>Excelencia</li>
+          <li>Trabajo en Equipo</li>
+          <li>Orientación al Cliente</li>
+          <li>Desarrollo</li>
+          <li>Ética y Compromiso</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer id="contacto" class="site-footer reveal">
+      <div class="container footer-grid">
+        <div>
+          <h2>Trabajá con nosotros</h2>
+          <p>
+            Sumate a un equipo que prioriza el desarrollo profesional, el trabajo colaborativo y el
+            compromiso con la excelencia.
+          </p>
+        </div>
+        <form class="careers-form" action="#" method="post">
+          <label>
+            Nombre y apellido
+            <input type="text" name="nombre" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Área de interés
+            <select name="area" required>
+              <option value="">Seleccionar…</option>
+              <option>Administración</option>
+              <option>Operaciones</option>
+              <option>Comercial</option>
+              <option>Logística</option>
+            </select>
+          </label>
+          <label>
+            Mensaje
+            <textarea name="mensaje" rows="4" required></textarea>
+          </label>
+          <button type="submit" class="btn">Enviar postulación</button>
+        </form>
+      </div>
+      <div class="container legal">
+        <p>© <span id="year"></span> Grupo El Surco. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
